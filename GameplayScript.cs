@@ -389,6 +389,7 @@ public class GameplayScript : MonoBehaviour {
         ResetHand(handTwo);
     }
 
+    #region TestCode
     public void TestCaseInsurance(bool blackjack, int firstCardValue = 0) {
         // The firstCardValue parameter allows selection of a card value for the first
         // card if a BlackJack hasn't been forced to be dealt. If this is left as
@@ -495,6 +496,7 @@ public class GameplayScript : MonoBehaviour {
             handOne.hand.Add(card);
         }
     }
+    #endregion
 
     void FixedUpdate() {
         ChangeButtonFunctionality();
