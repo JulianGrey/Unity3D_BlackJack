@@ -160,8 +160,8 @@ public class GUIScript : MonoBehaviour {
                 gameplayScript.handTwo.cards[0].nValue = 11;
             }
 
-            gameplayScript.TestCaseSplitPushBust();
-            //gameplayScript.DealCard(gameplayScript.handOne);
+            //gameplayScript.TestCaseSplitPushBust();
+            gameplayScript.DealCard(gameplayScript.handOne);
             gameplayScript.DealCard(gameplayScript.handTwo);
         }
     }
